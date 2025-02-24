@@ -5,27 +5,27 @@
   
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.9);
-  background: white;  /* ✅ Removed 'wheat', set to white */
+  background: white;
 }
 
 header {
-  margin-top: 0;  /* ✅ Remove extra space */
+  margin-top: 0; 
   text-align: center;
 }
 
 body, html {
   margin: 0;
   padding: 0;
-  background: white; /* ✅ Ensure background stays white */
+  background: white;
 }
 
-/* ✨ Navbar Styling */
+
 nav {
   background: whitesmoke;
   color: black;
   width: 80%;
-  margin: 0 auto;  /* ✅ Removed extra top margin */
-  padding: 10px 20px;  /* ✅ Reduced top padding */
+  margin: 0 auto; 
+  padding: 10px 20px;  
   border-radius: 12px;
   display: flex;
   justify-content: center;
@@ -36,7 +36,6 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 
-/* ✨ Nav Links */
 nav ul {
   list-style-type: none;
   display: flex;
@@ -51,40 +50,22 @@ nav ul li {
   transition: all 0.3s ease;
 }
 
-/* ✅ Updated link color for better visibility */
+
 nav ul li a {
   text-decoration: none;
-  color: black;  /* ✅ Changed from white to black */
+  color: black; 
   padding: 10px 15px;
   border-radius: 6px;
   transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-  background: #007bff;
+  background: black;
   color: white;
   box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5);
   transform: translateY(-2px);
 }
 
-/* ✅ Reduced margin to bring content closer */
 main {
-  margin-top: 20px; /* ✅ Reduced from 80px to 20px */
-}
-
-/* 📱 Responsive Design */
-@media (max-width: 768px) {
-  nav {
-    width: 90%;
-    padding: 8px; /* ✅ Adjusted for smaller screens */
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 10px; /* ✅ Reduced gap */
-  }
-
-  nav ul li {
-    text-align: center;
-  }
+  margin-top: 20px; 
 }

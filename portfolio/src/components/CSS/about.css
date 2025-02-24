@@ -76,28 +76,12 @@
     text-align: left;
     
   }
+
+  p{
+    align-items: center;
+  }
+
   h4 ,h2{
     color: black;
   }
   
-  @media (max-width: 768px) {
-    .about {
-      padding: 30px;
-    }
-  
-    .about h1 {
-      font-size: 2rem;
-    }
-  
-    .education-container {
-      padding: 15px 20px;
-    }
-  
-    .education-item {
-      padding: 10px;
-    }
-  
-    .about p {
-      max-width: 90%;
-    }
-  }

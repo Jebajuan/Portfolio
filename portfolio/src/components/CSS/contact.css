@@ -19,7 +19,6 @@
     margin-bottom: 20px;
   }
   
-  /* ✨ Contact Card */
   .contact-card {
     display: flex;
     flex-direction: column;
@@ -36,7 +35,6 @@
     transform: translateY(-5px);
   }
   
-  /* 🎨 Contact Details */
   .contact-info {
     display: flex;
     flex-direction: column;
@@ -59,26 +57,4 @@
   
   .contact-link:hover {
     color: #3498db;
-  }
-  
-  .icon {
-    font-size: 1.5rem;
-    color: #3498db;
-  }
-  
-  /* 📱 Responsive Design */
-  @media (max-width: 768px) {
-    .hc {
-      font-size: 2.2rem;
-    }
-  
-    .contact-card {
-      width: 95%;
-      padding: 20px;
-    }
-  
-    .contact-link,
-    .contact-detail {
-      font-size: 1rem;
-    }
   }

@@ -5,9 +5,8 @@ function About() {
   return (
     <div className="about">
       <h1>ABOUT ME</h1>
-      <h4>I am an enthusiastic Data Analyst with a  foundation in Machine Learning.
-         I have hands-on experience working with data using Excel and possess proficiency in C programming and Java for problem-solving 
-         and software development. Additionally, I have expertise in Figma for UI/UX design and Canva for creative content creation.</h4>
+      <p className='bring_mid'>I am an enthusiastic Computer Science Engineering Student with a passion for coding and problem-solving.
+      I am proficient with C and Java programming and flexible to learn new things. And have some experience with working in React</p>
 
       
       <div className="education-container">
